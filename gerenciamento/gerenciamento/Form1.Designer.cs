@@ -29,39 +29,39 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.txtcodigo = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.txtdescricao = new System.Windows.Forms.TextBox();
-            this.txtvalor = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.txtValor = new System.Windows.Forms.TextBox();
             this.txtpesquisar = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.chkpagamento = new System.Windows.Forms.DateTimePicker();
-            this.btncadastrar = new System.Windows.Forms.Button();
-            this.btneditar = new System.Windows.Forms.Button();
-            this.btnexcluir = new System.Windows.Forms.Button();
+            this.chkpagamento = new System.Windows.Forms.CheckBox();
+            this.data_Lancamento = new System.Windows.Forms.DateTimePicker();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
             this.btnproximo = new System.Windows.Forms.Button();
-            this.btnpesquisar = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.cbotipo = new System.Windows.Forms.ComboBox();
-            this.cboservico = new System.Windows.Forms.ComboBox();
+            this.cboTipo = new System.Windows.Forms.ComboBox();
+            this.cboServico = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtcodigo
+            // txtCodigo
             // 
-            this.txtcodigo.Location = new System.Drawing.Point(155, 106);
-            this.txtcodigo.Name = "txtcodigo";
-            this.txtcodigo.Size = new System.Drawing.Size(177, 22);
-            this.txtcodigo.TabIndex = 0;
-            this.txtcodigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtCodigo.Location = new System.Drawing.Point(155, 106);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(177, 22);
+            this.txtCodigo.TabIndex = 0;
+            this.txtCodigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // contextMenuStrip1
             // 
@@ -69,21 +69,21 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // txtdescricao
+            // txtDescricao
             // 
-            this.txtdescricao.Location = new System.Drawing.Point(155, 160);
-            this.txtdescricao.Name = "txtdescricao";
-            this.txtdescricao.Size = new System.Drawing.Size(177, 22);
-            this.txtdescricao.TabIndex = 0;
-            this.txtdescricao.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtDescricao.Location = new System.Drawing.Point(155, 160);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(177, 22);
+            this.txtDescricao.TabIndex = 0;
+            this.txtDescricao.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // txtvalor
+            // txtValor
             // 
-            this.txtvalor.Location = new System.Drawing.Point(155, 216);
-            this.txtvalor.Name = "txtvalor";
-            this.txtvalor.Size = new System.Drawing.Size(177, 22);
-            this.txtvalor.TabIndex = 0;
-            this.txtvalor.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtValor.Location = new System.Drawing.Point(155, 216);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(177, 22);
+            this.txtValor.TabIndex = 0;
+            this.txtValor.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtpesquisar
             // 
@@ -93,56 +93,56 @@
             this.txtpesquisar.TabIndex = 0;
             this.txtpesquisar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(155, 443);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(95, 20);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // chkpagamento
             // 
-            this.chkpagamento.Location = new System.Drawing.Point(155, 385);
+            this.chkpagamento.AutoSize = true;
+            this.chkpagamento.Location = new System.Drawing.Point(155, 443);
             this.chkpagamento.Name = "chkpagamento";
-            this.chkpagamento.Size = new System.Drawing.Size(200, 22);
-            this.chkpagamento.TabIndex = 3;
-            this.chkpagamento.ValueChanged += new System.EventHandler(this.chkpagamento_ValueChanged);
+            this.chkpagamento.Size = new System.Drawing.Size(95, 20);
+            this.chkpagamento.TabIndex = 2;
+            this.chkpagamento.Text = "checkBox1";
+            this.chkpagamento.UseVisualStyleBackColor = true;
             // 
-            // btncadastrar
+            // data_Lancamento
             // 
-            this.btncadastrar.BackColor = System.Drawing.Color.LightSlateGray;
-            this.btncadastrar.Location = new System.Drawing.Point(155, 512);
-            this.btncadastrar.Name = "btncadastrar";
-            this.btncadastrar.Size = new System.Drawing.Size(95, 31);
-            this.btncadastrar.TabIndex = 4;
-            this.btncadastrar.Text = "Cadastrar";
-            this.btncadastrar.UseVisualStyleBackColor = false;
-            this.btncadastrar.Click += new System.EventHandler(this.btncadastrar_Click);
+            this.data_Lancamento.Location = new System.Drawing.Point(155, 385);
+            this.data_Lancamento.Name = "data_Lancamento";
+            this.data_Lancamento.Size = new System.Drawing.Size(200, 22);
+            this.data_Lancamento.TabIndex = 3;
+            this.data_Lancamento.ValueChanged += new System.EventHandler(this.chkpagamento_ValueChanged);
             // 
-            // btneditar
+            // btnCadastrar
             // 
-            this.btneditar.BackColor = System.Drawing.Color.LightSlateGray;
-            this.btneditar.Location = new System.Drawing.Point(272, 512);
-            this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(83, 31);
-            this.btneditar.TabIndex = 4;
-            this.btneditar.Text = "Editar";
-            this.btneditar.UseVisualStyleBackColor = false;
-            this.btneditar.Click += new System.EventHandler(this.btneditar_Click);
+            this.btnCadastrar.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btnCadastrar.Location = new System.Drawing.Point(155, 512);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(95, 31);
+            this.btnCadastrar.TabIndex = 4;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar.Click += new System.EventHandler(this.btncadastrar_Click);
             // 
-            // btnexcluir
+            // btnEditar
             // 
-            this.btnexcluir.BackColor = System.Drawing.Color.LightSlateGray;
-            this.btnexcluir.Location = new System.Drawing.Point(381, 512);
-            this.btnexcluir.Name = "btnexcluir";
-            this.btnexcluir.Size = new System.Drawing.Size(78, 31);
-            this.btnexcluir.TabIndex = 4;
-            this.btnexcluir.Text = "Excluir";
-            this.btnexcluir.UseVisualStyleBackColor = false;
-            this.btnexcluir.Click += new System.EventHandler(this.btnexcluir_Click);
+            this.btnEditar.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btnEditar.Location = new System.Drawing.Point(272, 512);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(83, 31);
+            this.btnEditar.TabIndex = 4;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btneditar_Click);
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btnExcluir.Location = new System.Drawing.Point(381, 512);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(78, 31);
+            this.btnExcluir.TabIndex = 4;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnexcluir_Click);
             // 
             // btnproximo
             // 
@@ -154,16 +154,16 @@
             this.btnproximo.Text = "Próximo";
             this.btnproximo.UseVisualStyleBackColor = false;
             // 
-            // btnpesquisar
+            // btnPesquisar
             // 
-            this.btnpesquisar.BackColor = System.Drawing.Color.LightSlateGray;
-            this.btnpesquisar.Location = new System.Drawing.Point(1125, 139);
-            this.btnpesquisar.Name = "btnpesquisar";
-            this.btnpesquisar.Size = new System.Drawing.Size(75, 23);
-            this.btnpesquisar.TabIndex = 4;
-            this.btnpesquisar.Text = "Ok";
-            this.btnpesquisar.UseVisualStyleBackColor = false;
-            this.btnpesquisar.Click += new System.EventHandler(this.btnok_Click);
+            this.btnPesquisar.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btnPesquisar.Location = new System.Drawing.Point(1125, 139);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnPesquisar.TabIndex = 4;
+            this.btnPesquisar.Text = "Ok";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnok_Click);
             // 
             // label1
             // 
@@ -220,21 +220,21 @@
             this.label6.Text = "Pesquisar";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // cbotipo
+            // cboTipo
             // 
-            this.cbotipo.FormattingEnabled = true;
-            this.cbotipo.Location = new System.Drawing.Point(155, 276);
-            this.cbotipo.Name = "cbotipo";
-            this.cbotipo.Size = new System.Drawing.Size(121, 24);
-            this.cbotipo.TabIndex = 6;
+            this.cboTipo.FormattingEnabled = true;
+            this.cboTipo.Location = new System.Drawing.Point(155, 276);
+            this.cboTipo.Name = "cboTipo";
+            this.cboTipo.Size = new System.Drawing.Size(121, 24);
+            this.cboTipo.TabIndex = 6;
             // 
-            // cboservico
+            // cboServico
             // 
-            this.cboservico.FormattingEnabled = true;
-            this.cboservico.Location = new System.Drawing.Point(155, 328);
-            this.cboservico.Name = "cboservico";
-            this.cboservico.Size = new System.Drawing.Size(121, 24);
-            this.cboservico.TabIndex = 6;
+            this.cboServico.FormattingEnabled = true;
+            this.cboServico.Location = new System.Drawing.Point(155, 328);
+            this.cboServico.Name = "cboServico";
+            this.cboServico.Size = new System.Drawing.Size(121, 24);
+            this.cboServico.TabIndex = 6;
             // 
             // dataGridView1
             // 
@@ -270,10 +270,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1291, 710);
+            this.ClientSize = new System.Drawing.Size(1248, 710);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.cboservico);
-            this.Controls.Add(this.cbotipo);
+            this.Controls.Add(this.cboServico);
+            this.Controls.Add(this.cboTipo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -282,17 +282,17 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnpesquisar);
+            this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnproximo);
-            this.Controls.Add(this.btnexcluir);
-            this.Controls.Add(this.btneditar);
-            this.Controls.Add(this.btncadastrar);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.data_Lancamento);
             this.Controls.Add(this.chkpagamento);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtpesquisar);
-            this.Controls.Add(this.txtvalor);
-            this.Controls.Add(this.txtdescricao);
-            this.Controls.Add(this.txtcodigo);
+            this.Controls.Add(this.txtValor);
+            this.Controls.Add(this.txtDescricao);
+            this.Controls.Add(this.txtCodigo);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -303,26 +303,26 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtcodigo;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox txtdescricao;
-        private System.Windows.Forms.TextBox txtvalor;
+        private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.TextBox txtpesquisar;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.DateTimePicker chkpagamento;
-        private System.Windows.Forms.Button btncadastrar;
-        private System.Windows.Forms.Button btneditar;
-        private System.Windows.Forms.Button btnexcluir;
+        private System.Windows.Forms.CheckBox chkpagamento;
+        private System.Windows.Forms.DateTimePicker data_Lancamento;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnproximo;
-        private System.Windows.Forms.Button btnpesquisar;
+        private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbotipo;
-        private System.Windows.Forms.ComboBox cboservico;
+        private System.Windows.Forms.ComboBox cboTipo;
+        private System.Windows.Forms.ComboBox cboServico;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;

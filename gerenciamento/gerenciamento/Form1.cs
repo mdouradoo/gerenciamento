@@ -1,4 +1,5 @@
-﻿using System;
+﻿using gerenciamento.objeto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,15 +34,15 @@ namespace gerenciamento
             conexao com = new conexao();
             com.getConexao();
             // chama o objeto do financeiro
-            financeirocs financeiro = new financeirocs();
-            financeiro.id = Convert.ToInt32(txtCodigo.Text);
-            financeiro.descricao = txtDescricao.Text;
-            financeiro.servico = cboServico.Text;
-            financeiro.tipo = cboTipo.Text;
-            financeiro.valor = decimal.Parse(txtValor.Text);
-            financeiro.pgto = chkpagamento.Checked;
-            financeiro.data_lancamento = Data_lancamento.Value;
-            if (financeiro.editar(com) == true)
+            financeiro finan = new financeiro();
+            finan.id = Convert.ToInt32(txtCodigo.Text);
+            finan.descricao = txtDescricao.Text;
+            finan.servico = cboServico.Text;
+            finan.tipo = cboTipo.Text;
+            finan.valor = decimal.Parse(txtValor.Text);
+            finan.pgto = data_Lancamento.Checked;
+            finan.data_lancamento = Data_lancamento.Value;
+            if (finan.editar(com) == true)
             {
                 MessageBox.Show("Editado com sucesso!");
             }
@@ -53,7 +54,7 @@ namespace gerenciamento
             conexao com = new conexao();
             com.getConexao();
             // chama o objeto do financeiro
-            financeirocs financeiro = new financeirocs();
+            financeiro financeiro = new financeiro();
             financeiro.id = Convert.ToInt32(txtCodigo.Text);
             if (financeiro.Excluir(com) == true)
             {
@@ -81,14 +82,14 @@ namespace gerenciamento
             conexao con = new conexao();
             con.getConexao();
             //chamando o objeto financeiro
-            financeirocs fin = new financeirocs();
+            financeiro fin = new financeirocs();
             //populando as informações
             fin.data_lancamento = Data_lancamento.Value;
             fin.descricao = txtDescricao.Text;
             fin.servico = cboServico.Text;
             fin.valor = decimal.Parse(txtValor.Text);
             fin.tipo = cboTipo.Text;
-            fin.pgto = chkpagamento.Checked;
+            fin.pgto = data_Lancamento.Checked;
             if (fin.cadastrar(con) == true)
             {
                 MessageBox.Show("Cadastrado com sucesso");
@@ -102,6 +103,4 @@ namespace gerenciamento
         }
     }
 }
-        }
-    }
-}
+       

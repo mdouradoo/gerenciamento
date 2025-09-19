@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\professor\\Documents\\GitHub\\gerenciamento\\gerenciamento\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\professor\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\aluno\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\objeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\aluno\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\objeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\aluno\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\professor\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\aluno\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\objeto\\financeiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|c:\\users\\aluno\\documents\\github\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5144400F-B9A2-4370-AC2C-F82BE76A4DB1}|gerenciamento\\gerenciamento.csproj|solutionrelative:gerenciamento\\objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,22 +40,73 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\professor\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
-              "RelativeDocumentMoniker": "gerenciamento\\Form1.cs",
-              "ToolTip": "C:\\Users\\professor\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
-              "RelativeToolTip": "gerenciamento\\Form1.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAADgv2QAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\Form1.cs",
+              "RelativeDocumentMoniker": "gerenciamento\\objeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\Form1.cs",
+              "RelativeToolTip": "gerenciamento\\objeto\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAywBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T13:25:30.903Z",
+              "WhenOpened": "2025-09-19T16:06:22.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\professor\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\Form1.cs",
+              "RelativeDocumentMoniker": "gerenciamento\\objeto\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\Form1.cs [Design]",
+              "RelativeToolTip": "gerenciamento\\objeto\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T16:05:00.285Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\conexao.cs",
+              "RelativeDocumentMoniker": "gerenciamento\\objeto\\conexao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\conexao.cs",
+              "RelativeToolTip": "gerenciamento\\objeto\\conexao.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T15:36:01.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "financeiro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\financeiro.cs",
+              "RelativeDocumentMoniker": "gerenciamento\\objeto\\financeiro.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\objeto\\financeiro.cs",
+              "RelativeToolTip": "gerenciamento\\objeto\\financeiro.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T15:35:10.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
               "RelativeDocumentMoniker": "gerenciamento\\Form1.cs",
-              "ToolTip": "C:\\Users\\professor\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
+              "RelativeToolTip": "gerenciamento\\Form1.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv1QAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:25:30.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs",
+              "RelativeDocumentMoniker": "gerenciamento\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamento\\gerenciamento\\gerenciamento\\Form1.cs [Design]",
               "RelativeToolTip": "gerenciamento\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T13:19:38.44Z",
